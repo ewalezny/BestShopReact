@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./benefits.module.scss";
-import BenefitsBoxText from "./BenefitsBoxText";
+import macbook from "../../assets/Macbook.png";
+import iphone from "../../assets/iPhone.png";
+import trumpet from "../../assets/Trumpet.png";
 
 const Benefits = () => {
     const {
@@ -23,21 +25,37 @@ const Benefits = () => {
             <div className={container}>
                 <div className={benefits__content}>
                     <div className={benefits__box_first}>
-                        <BenefitsBoxText className={benefits__box__text_first} heading="Be always first" />
+                        <div className={benefits__box__text_first}>
+                            <h2>Be always first</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <div className="line" />
                         <div className={benefits__box__img_first}>
-                            <img src="../../../public/assets/Macbook.png" alt="macbook" />
+                            <img src={macbook} alt="macbook" />
                         </div>
                     </div>
                     <div className={benefits__box_second}>
                         <div className={benefits__box__img_second}>
-                            <img src="../../../public/assets/iPhone.png" alt="iphone" />
+                            <img src={iphone} alt="iphone" />
                         </div>
-                        <BenefitsBoxText className={benefits__box__text_second} heading="Your shop is where you are!"/>
+                        <div className={benefits__box__text_second}>
+                            <h2>Your shop is where you are!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
                     </div>
                     <div className={benefits__box_third}>
-                        <BenefitsBoxText className={benefits__box__text_third} heading="Increase recognition your brand!"/>
+                        <div className={benefits__box__text_third}>
+                            <h2>Increase recognition your brand!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
                         <div className={benefits__box__img_third}>
-                            <img src="../../../public/assets/Trumpet.png" alt="trumpet" />
+                            <img src={trumpet} alt="trumpet" />
                         </div>
                     </div>
                 </div>

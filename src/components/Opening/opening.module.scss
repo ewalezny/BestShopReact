@@ -2,7 +2,7 @@
 @import "src/scss/settings/mixins";
 
 .opening {
-  background: url("../../../public/assets/Background.png") no-repeat bottom;
+  background: url("../../assets/Background.png") no-repeat bottom;
   height: calc(100vh - 70px);
   position: relative;
   display: flex;
