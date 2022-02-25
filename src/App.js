@@ -6,6 +6,7 @@ import Statistics from "./components/Statistics";
 import Benefits from "./components/Benefits";
 import Pricing from "./components/Pricing";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <Statistics/>
             <Benefits/>
             <Pricing/>
+            <Contact/>
             <Footer/>
         </>
     )
