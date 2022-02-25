@@ -5,6 +5,7 @@ import Opening from "./components/Opening";
 import Statistics from "./components/Statistics";
 import Benefits from "./components/Benefits";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Statistics/>
             <Benefits/>
             <Pricing/>
+            <Footer/>
         </>
     )
 }
